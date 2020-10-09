@@ -3,8 +3,8 @@ FROM lsiobase/alpine:3.12
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="blog.auskai.win version:- ${VERSION} Build-date:- ${BUILD_DATE}"
-LABEL maintainer="auska"
+LABEL build_version="jiangzhx/docker-rrshareweb version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL maintainer="sylarj"
 
 ENV GLIBC_VERSION=2.31-r0 TZ=Asia/Shanghai
 
